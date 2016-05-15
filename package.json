@@ -1,0 +1,26 @@
+{
+  "name": "shopvintagedolls",
+  "version": "1.0.0",
+  "description": "web app for shopvintagedolls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ch4ng94/ShopVintageDolls.git"
+  },
+  "author": "Andrew Chang, Tony Benny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ch4ng94/ShopVintageDolls/issues"
+  },
+  "homepage": "https://github.com/Ch4ng94/ShopVintageDolls#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.4.17",
+    "passport": "^0.3.2"
+  }
+}
