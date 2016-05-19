@@ -7,9 +7,9 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 //middleware
+app.use(express.static(__dirname + '/views'))
 
 //routes
-
 app.get('/' , function(req, res) {
 	res.render('index');
 });
