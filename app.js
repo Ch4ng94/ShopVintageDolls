@@ -7,8 +7,8 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'public/views'));
 
 //middleware
-app.use(express.static(__dirname + 'public/views'));
-app.use(express.static(__dirname + 'public/images'));
+app.use(express.static(path.join(__dirname, 'bower_components')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 //routes
 app.get('/' , function(req, res) {
